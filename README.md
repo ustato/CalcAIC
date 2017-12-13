@@ -8,8 +8,8 @@
 [CalcTestAIC.py](https://github.com/Atsuto0519/CalcAIC/blob/master/CalcTestAIC.py)
 と
 [plot_TestAIC.py](https://github.com/Atsuto0519/CalcAIC/blob/master/plot_TestAIC.py)
-は[こちら](http://takashiyoshino.random-walk.org/memo/keikaku2/node5.html)に載っている
-結果と同じになることを検証済み．
+は[こちら](http://takashiyoshino.random-walk.org/memo/keikaku2/node5.html)
+に載っている結果と同じになることを検証済み．
 
 
 ### [CalcAICtoLSM.py](https://github.com/Atsuto0519/CalcAIC/blob/master/CalcAICtoLSM.py)
