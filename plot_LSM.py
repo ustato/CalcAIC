@@ -3,7 +3,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-import LSM
+import LSM as LSM
 
 #データ
 data = np.loadtxt("lsmdata1_train.csv",delimiter=" ")
