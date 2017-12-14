@@ -45,11 +45,12 @@ for n in range(N+1) :
 
     # ここで，このモデルのAICを計算
     l = AIC.l_MAX(list(coe[::-1]),data_x,data_y)
-    print("l="+str(l)+",AIC("+str(n)+")="+str(AIC.AIC(l,n+1)))
+    AIC_n = AIC.AIC(l,n+1)
+    print("l="+str(l)+", AIC("+str(n)+")="+str(AIC_n))
 
     # LSMで得た近似線をプロット
     test_x = np.arange(min(data_x), max(data_x), 0.01)
-    plt.plot(test_x, LSM.quation_LSM(coe, test_x), label="polynomial of degree "+str(n))
+    plt.plot(test_x, LSM.quation_LSM(coe, test_x), label="polynomial of degree "+str(n)+", AIC("+str(n)+")="+str(AIC_n))
 
 plt.title("Compare LSM of degree")
 plt.legend()
