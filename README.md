@@ -27,6 +27,7 @@
 # 参考サイト
 - [尤度とAIC](http://takashiyoshino.random-walk.org/memo/keikaku2/node5.html)
 - [Python Tips：多重リストをフラットにしたい - Life with Python](http://www.lifewithpython.com/2014/01/python-flatten-nested-lists.html)
+- [回帰分析](http://strep.main.jp/uploads/class/5LinearRegression.ppt)
 
 
 # インポートしたリポジトリ
